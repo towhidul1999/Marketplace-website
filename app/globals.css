@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+li.ant-menu-item.ant-menu-item-only-child {
+  padding-left: 32px !important;
+}
+
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light > .ant-menu .ant-menu-item-selected {
+  background-color: #00bf63;
+}
+
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light > .ant-menu .ant-menu-item-selected {
+  color: white;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #00bf63;
+  border-color: #00bf63;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+  border: 1px solid #00bf63;
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover
+  .ant-checkbox-checked:not(.ant-checkbox-disabled)
+  .ant-checkbox-inner {
+  background-color: #00bf63;
+  border-color: transparent;
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover
+  .ant-checkbox-inner,
+:where(.css-dev-only-do-not-override-17sses9).ant-checkbox:not(
+    .ant-checkbox-disabled
+  ):hover
+  .ant-checkbox-inner {
+  border-color: #00bf63;
+}
+
+.ant-menu-light .ant-menu-submenu-selected > .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-17sses9).ant-menu-light
+  > .ant-menu
+  .ant-menu-submenu-selected
+  > .ant-menu-submenu-title {
+  color: #00bf63;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #00bf63;
+  background-color: #00bf63;
+}
+
+/* Slider */
+
+.swiper-pagination-bullet {
+  background-color: #00bf63 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00bf63 !important;
+}
+
+.custom-box-shadow {
+  box-shadow: 0px 0px 26px 0px #2b2a2a1f;
+}
+
+.tag-input-field {
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tag-item {
+  background-color: #e6f9ef;
+  border-radius: 10px;
+  margin-bottom: 20px !important;
+  font-size: large;
+  margin-right: 10px;
+  padding: 8px 16px;
+  margin-top: 20px !important;
+  font-weight: 600;
+}
+
+.tag-remove {
+  cursor: pointer;
+  color: black !important;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 5px;
+}
+
+.tags-container {
+  margin: 10px 0;
+}
+
+.jodit-workplace {
+  height: 300px !important;
+}
